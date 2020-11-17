@@ -1,5 +1,5 @@
 import { HttpService, UserService } from './services';
-import { Container } from './../src/container';
+import { Container } from '../src/container';
 
 export enum SERVICES {
     HTTP_SERVICE,
