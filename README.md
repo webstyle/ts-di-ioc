@@ -25,7 +25,7 @@ export const container = new Container();
 container.set('HTTP_SERVICE', HttpService)
 
 // Final, dependecy injection!
-const service: IHttpService = container.get(HTTP_SERVICE);
+const service: IHttpService = container.get('HTTP_SERVICE');
 console.log(service.makeName());
 ```
 
